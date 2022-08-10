@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200&family=Roboto:wght@100;300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 1000px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #E7E8D8;
+    height: 60px;
+}
+nav h2 {
+    margin-top: 5px;
+}
+nav h2 a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 38px;
+    margin-left: 40px;
+    font-family:Roboto;
+    transition: 0.5s;
+}
+nav h2 a:hover{
+    letter-spacing: 5px;
+}
+nav ul{
+    display: flex;
+    margin-right: 150px;
+    margin-top: 10px;
+    list-style-type: none;
+}
+nav ul li a {
+    text-decoration: none;
+    margin-left: 100px;
+    font-weight: 600;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    color: blue;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+nav ul li a:hover{
+    letter-spacing: 5px;
+}
+#carouselExampleControls{
+    margin-top: 30px;
+    margin-left: 180px;
+    margin-right: 220px;
+}
+#pp1{
+    border-radius: 50px;
+}
+
+#img1{
+    background-repeat: no-repeat;
+    border-radius:30px ;
+    margin-top: 20px;
+    margin-left: 50px;
+    text-decoration: none;
+    transition: 1s;
+}
+button{
+    position: relative;
+    top: -20%;
+    left: 16%;
+}
+#download{
+    border: none;
+    padding: 10px 17px;
+    font-family: sans-serif;
+    font-weight: 500;
+    color: white;
+    font-size: 20px;
+    background-color: rgb(155, 162, 255);
+    border-radius: 15px;
+    transition: 0.6s;
+}
+#download:hover{
+    letter-spacing: 3px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+#view{
+    border: none;
+    padding: 10px 17px;
+    font-family: sans-serif;
+    font-weight: 500;
+    color: white;
+    font-size: 20px;
+    background-color:rgb(111, 168, 111);
+    border-radius: 15px;
+    margin-left: 30px;
+    transition: 0.6s;
+}
+#view:hover{
+letter-spacing: 7px;
+padding-left: 25px;
+padding-right: 25px;
+padding-top: 13px;
+padding-bottom: 13px;
+}
+cards{
+    margin-top: 30px;
+    margin-left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+card{
+    width: 380px;
+    margin-right: 60px;
+    text-decoration: none;
+}
+#next{
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    margin-top: 110px;
+    margin-left: 680px;
+}
+#back{
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    margin-left: 60px;
+    margin-top: 120px;
+}
+last h3{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px 0px;
+}
+.form{
+    margin-top: 70px;
+    margin-left: 350px;
+}
+.form span {
+    font-family: 'Cairo', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+}
+#input1{
+    height: 47px;
+    width: 600px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+#input2{
+    height: 47px;
+    width: 600px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+#input3{
+    height: 47px;
+    width: 600px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+#input4{
+    height: 47px;
+    width: 600px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+#bb1{
+    margin-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 12px;
+    margin-left: 66px;
+}
+@media (max-width:720px) {
+    nav ul{
+        margin-top: 10px;
+        list-style-type: none;
+        margin-left: 400px;
+    }
+    nav ul li a {
+        text-decoration: none;
+        margin-left: 10px;
+        font-size: 20px;
+        font-family: 'Roboto', sans-serif;
+        color: blue;
+        opacity: 0.7;
+        transition: 0.5s;
+    }
+    nav h2 a{
+        text-decoration: none;
+        color: black;
+        font-size: 14px;
+        margin-left: 0px;
+        font-family:Roboto;
+    }
+    nav {
+        background-color: #E7E8D8;
+        height: 50px;
+        width: 100%;
+    }
+    nav h2{
+        position: absolute;
+        top: -0.2%;
+    }
+    nav h2 a{
+        font-size: 15px;
+    }
+    .form{
+        margin-left: 50px;
+        margin-top: 100px;
+    }
+}
